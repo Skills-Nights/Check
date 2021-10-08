@@ -1,0 +1,219 @@
+<div class="ovf" style="margin-top: -80px">
+      <div class="dropdown">
+        <img src="assets/logo/2.png" class="img-fluid" style="height: 80px" />
+        <div class="capabilities hover-underline-animation">
+          <button><a href="#">Home</a></button>
+        </div>
+
+        <div class="firms hover-underline-animation">
+          <button><a href="#">About</a></button>
+        </div>
+
+        <div class="firms hover-underline-animation">
+          <button><a href="#">Prizes</a></button>
+        </div>
+
+        <div class="insights hover-underline-animation">
+          <button><a href="#">Schedule</a></button>
+        </div>
+
+        <div class="insights hover-underline-animation">
+          <button><a href="#">Instructions</a></button>
+        </div>
+
+        <div class="contacts hover-underline-animation">
+          <button><a href="#">Our Sponsors</a></button>
+        </div>
+
+        <div class="insights hover-underline-animation">
+          <button><a href="#">FAQ</a></button>
+        </div>
+      </div>
+      <!-- hamburger-icon -->
+      <div class="burger">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    CSS 
+
+    /* navbar */
+.ovf {
+  min-width: 100vw;
+  position: sticky;
+  top: -2px;
+  z-index: 5;
+  margin: 0;
+  transition: all 0.4s ease-in;
+}
+.nav-bg {
+  background: inherit;
+  backdrop-filter: blur(20px);
+  background-color: rgba(60, 58, 70, 0.432);
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  margin: 4rem 3rem 0rem 3rem;
+  align-items: center;
+}
+.capabilities,
+.firms,
+.insights,
+.contacts {
+  flex: 1;
+}
+.capabilities button,
+.firms button,
+.insights button,
+.contacts button {
+  border: none;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-size: 15px;
+  text-shadow: 2px 2px 5px rgba(78, 78, 78, 0.952);
+  padding: 10px 20px 10px 2px;
+}
+.capabilities a,
+.firms a,
+.insights a,
+.contacts a {
+  text-decoration: none;
+  color: white;
+}
+.burger div {
+  background-color: white;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  border-radius: 2px;
+  transition: all 0.4s ease;
+}
+.burger {
+  display: none;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 70%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f7ac1d;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+
+/* responsiveness: Mobile View */
+@media screen and (max-width: 768px) {
+  .ovf{
+      overflow-x: hidden;
+      position: static;
+  }
+  .dropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0px;
+    top: 0vh;
+    height: 100vh;
+    width: 0%;
+    margin: 0%;
+    background: inherit;
+    backdrop-filter: blur(0.9rem);
+    background-color: rgba(255, 255, 255, 0.267);
+    box-shadow: -5px 0px 10px rgba(20, 20, 20, 0.521);
+    transform: translateX(100%);
+    transition: all 0.4s ease-in;
+    z-index: +15;
+  }
+  .dropdown button {
+    opacity: 0;
+  }
+
+  .capabilities,
+  .firms,
+  .insights,
+  .contacts{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+  }
+  .burger {
+    display: block;
+    position: absolute;
+    right: 10vw;
+    top: 5vh;
+    z-index: 50;
+  }
+  .hover-underline-animation:after {
+    display: none;
+  }
+}
+
+.dropdown-active {
+    width: 75%;
+    display: flex;
+    transform: translateX(0%);
+}
+.dropdown-active button {
+  color: #ffffff;
+}
+
+
+@keyframes linkfade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line-1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line-2 {
+  width: 0px;
+  transform: translateX(25px);
+  background-color: #f7ac1d;
+}
+.toggle .line-3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
