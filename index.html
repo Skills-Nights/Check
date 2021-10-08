@@ -1,488 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="assets/logo/2.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
-      crossorigin="anonymous"
-    />
 
-    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="assets/logo/2.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous" />
 
-    <title>Hack-o-Futurista</title>
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent ovf nav-bg">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#" style="color: white;">
-       <img src="assets/logo/2.png" alt="" width="75" height="68" class="d-inline-block align-text-top" ></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="color: white;">
-        <li class="nav-item">
-          <a class="nav-link active px-5 a1" aria-current="page" href="#" style="color: white;">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active px-5 a1" aria-current="page" href="#" style="color: white;">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active px-5 a1" aria-current="page" href="#" style="color: white;">Prizes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active px-5 a2" aria-current="page" href="#" style="color: white;">Timeline</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-5 a2" href="#" style="color: white;">Instructions</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-5 a2" href="#" style="color: white;">Our Sponsors</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-5 a1" href="#" style="color: white;">Faq</a>
-        </li>
-        <div class="px-5">
-        <button type="button" class="btn btn-light"><img src="assets/discord.png" class="img-fluid"> Join us on Discord</button>
+  <title>Hack-o-Futurista</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent ovf nav-bg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="color: white;">
+        <img src="assets/logo/2.png" alt="" width="75" height="68" class="d-inline-block align-text-top"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-0.2 mb-lg-0" style="color: white;">
+          <li class="nav-item">
+            <a class="nav-link active px-5 a1" aria-current="page" href="#" style="color: white;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active px-5 a1" aria-current="page" href="#" style="color: white;">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active px-5 a1" aria-current="page" href="#" style="color: white;">Prizes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active px-5 a2" aria-current="page" href="#" style="color: white;">Timeline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-5 a2" href="#" style="color: white;">Instructions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-5 a2" href="#" style="color: white;">Our Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-5 a1" href="#" style="color: white;">Faq</a>
+          </li>
+          <div class="px-5">
+            <button type="button" class="btn btn-light"><img src="assets/discord.png" class="img-fluid"> Join us on
+              Discord</button>
+          </div>
       </div>
     </div>
-  </div>
-</nav>
-<br><br><br><br>
-    <!--image-->
-    <div
-      id="carouselExampleCaptions"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="assets/bg-main.png"
-            class="d-block w-100 img-fluid"
-            style="width: 100vw"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="a">Hack-o-Futurista</h1>
-            <button type="button" class="btn btn-light b1">
-              <img
-                src="assets/logo/d2c-icon-800x800.jpg"
-                class="img-fluid"
-                style="width: 32px; height: 32px"
-              />
-              Apply with D2C
+  </nav>
+  <br><br><br><br>
+  <!--image-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/bg-main.png" class="d-block w-100 img-fluid" style="width: 100vw" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="a">Hack-o-Futurista</h1>
+          <button type="button" class="btn btn-light b1">
+            <img src="assets/logo/d2c-icon-800x800.jpg" class="img-fluid" style="width: 32px; height: 32px" />
+            Apply with D2C
+          </button>
+          <div class="text-center">
+            <button type="button" class="btn btn-light b2">
+              How to Register
             </button>
-            <div class="text-center">
-              <button type="button" class="btn btn-light b2">
-                How to Register
-              </button>
-            </div>
-            <p></p>
           </div>
+          <p></p>
         </div>
       </div>
     </div>
-    <br />
-    <!--About us-->
-    <div class="d-flex justify-content-evenly" style="color: white">
-      <h2>About the Event</h2>
-      <p style="width: 33vw">
-        The aforementioned is an All-India Hackathon curated by Skills Nights,
-        with an expected participation of 1000+ . Hack-oFuturista is an
-        unprecedented 2-stage hackathon spanning over a week where the teams
-        need to first send us their ideas and the best ones picked by our judges
-        will move on to the next stage to implement the same. This will be the
-        final hurdle for the participants and then we'll be announcing the
-        ingenios winners of the hackathon from the list curated by our judges.
-      </p>
+  </div>
+  <br />
+  <!--About us-->
+  <div class="row featurette" style="color: white;">
+    <div class="col-md-5">
+      <h2 class="mx-auto">About the Event</h2>
     </div>
-    <br />
-    <br />
-    <!--skills nights-->
-    <div class="d-flex justify-content-evenly" style="color: white">
-      <p style="width: 33vw">
-        Skills Nights is an ambitious student club that primarly aims at
+    <div class="col-md-7">
+      <p class="lead" style="width: 33vw;margin-left: 20%;">The aforementioned is an All-India Hackathon curated by
+        Skills Nights, with an expected participation of 1000+ . Hack-oFuturista is an unprecedented 2-stage hackathon
+        spanning over a week where the teams need to first send us their ideas and the best ones picked by our judges
+        will move on to the next stage to implement the same. This will be the final hurdle for the participants and
+        then we'll be announcing the ingenios winners of the hackathon from the list curated by our judges.</p>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <!--skills nights-->
+  <div class="row featurette" style="color: white;">
+    <div class="col-md-7">
+      <p class="lead" style="width: 33vw;margin-left: 20%;">Skills Nights is an ambitious student club that primarly
+        aims at
         providing a beginner-friendly platform,making it an ideal starting point
         for the freshers to join and begin their journey of learning/exploring
         new technologies in their field of interest, building projects, and
         collaborating with their fellow batchmates to make awesome projects that
-        help them stand out.
+        help them stand out.</p>
+    </div>
+    <div class="col-md-5">
+      <h2 style="margin-left: -70px;">Skills Nights Development Wing</h2>
+    </div>
+  </div>
+  <br />
+  <br />
+  <!--TantraFiesta-->
+  <div class="row featurette" style="color: white;">
+    <div class="col-md-5">
+      <h2 class="mx-auto">TantraFiesta</h2>
+    </div>
+    <div class="col-md-7">
+      <p class="lead" style="width: 33vw;margin-left: 20%;"> The TantraFiesta is the National Level Technical Fest of the IIIT
+      Nagpur. The most awaited event of IIIT Nagpur. This National Level
+      Technical Fest comprises different technical events and keynotes by the
+      industry experts.</p>
+    </div>
+  </div>
+  <br />
+  <!--prizes-->
+  <div class="container" style="color: white">
+    <h2 class="text-center">Prizes</h2>
+    <br />
+    <div class="container">
+      <p>
+        🏆 Cash prize worth 20k sponsored by Quidnunc Infotainment and River
+        Rises
       </p>
-      <h2>Skills Nights Development Wing</h2>
-    </div>
-    <br />
-    <br />
-    <!--TantraFiesta-->
-    <div class="d-flex justify-content-evenly" style="color: white">
-      <h2>TantraFiesta</h2>
-      <p style="width: 33vw">
-        The TantraFiesta is the National Level Technical Fest of the IIIT
-        Nagpur. The most awaited event of IIIT Nagpur. This National Level
-        Technical Fest comprises different technical events and keynotes by the
-        industry experts.
+      <p>
+        🏆 Potential candidates get a chance to bag an internship or a full
+        time job at Quidnunc’s IT division with stipend and seed funding upto
+        2Lakh*.
+      </p>
+      <p>
+        🏆 Cash prize worth 10k for best hack built on top of Ethereum and for
+        teams that integrate Polygon in their hacks as well the prize money
+        will be 15k
+      </p>
+      <p>
+        🏆 Cash prize worth 20k for best Dapp built on Tezos. Continuity grant
+        opportunity up to 5,000 USD(or equivalent) for an outstanding
+        project*.
+      </p>
+      <p>
+        🏆 Cash prize worth 20k for best Dapp built on Celo and Cash prize
+        worth 20k for best use of IPFS and/or Filecoin*.
+      </p>
+      <p>
+        🏆 For top performing teams, exclusive t-shirts and swags will be
+        provided*.
       </p>
     </div>
-    <br />
-    <!--prizes-->
-    <div class="container" style="color: white">
-      <h2 class="text-center">Prizes</h2>
-      <br />
-      <div class="container">
-        <p>
-          🏆 Cash prize worth 20k sponsored by Quidnunc Infotainment and River
-          Rises
-        </p>
-        <p>
-          🏆 Potential candidates get a chance to bag an internship or a full
-          time job at Quidnunc’s IT division with stipend and seed funding upto
-          2Lakh*.
-        </p>
-        <p>
-          🏆 Cash prize worth 10k for best hack built on top of Ethereum and for
-          teams that integrate Polygon in their hacks as well the prize money
-          will be 15k
-        </p>
-        <p>
-          🏆 Cash prize worth 20k for best Dapp built on Tezos. Continuity grant
-          opportunity up to 5,000 USD(or equivalent) for an outstanding
-          project*.
-        </p>
-        <p>
-          🏆 Cash prize worth 20k for best Dapp built on Celo and Cash prize
-          worth 20k for best use of IPFS and/or Filecoin*.
-        </p>
-        <p>
-          🏆 For top performing teams, exclusive t-shirts and swags will be
-          provided*.
-        </p>
-      </div>
-    </div>
-    <br />
-    <!--Timeline-->
-    <div class="timeline">
-      <h1 class="text-center" style="color: white">TimeLine</h1>
-      <div
-        class="
+  </div>
+  <br />
+  <!--Timeline-->
+  <div class="timeline">
+    <h1 class="text-center" style="color: white">TimeLine</h1>
+    <div class="
           timeline__event
           animated
           fadeInUp
           delay-3s
           timeline__event--type1
-        "
-      >
-        <div class="timeline__event__icon">
-          <i class="lni-cake"></i>
-        </div>
-        <div class="timeline__event__date">20-08-2019</div>
-        <div class="timeline__event__content">
-          <div class="timeline__event__title">Birthday</div>
-          <div class="timeline__event__description">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-              nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-              corporis incidunt reprehenderit accusantium id aut architecto
-              harum quidem dolorem in!
-            </p>
-          </div>
+        ">
+      <div class="timeline__event__icon">
+        <i class="lni-cake"></i>
+      </div>
+      <div class="timeline__event__date">20-08-2019</div>
+      <div class="timeline__event__content">
+        <div class="timeline__event__title">Birthday</div>
+        <div class="timeline__event__description">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
+            nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
+            corporis incidunt reprehenderit accusantium id aut architecto
+            harum quidem dolorem in!
+          </p>
         </div>
       </div>
-      <div
-        class="
+    </div>
+    <div class="
           timeline__event
           animated
           fadeInUp
           delay-2s
           timeline__event--type2
-        "
-      >
-        <div class="timeline__event__icon">
-          <i class="lni-burger"></i>
-        </div>
-        <div class="timeline__event__date">20-08-2019</div>
-        <div class="timeline__event__content">
-          <div class="timeline__event__title">Lunch</div>
-          <div class="timeline__event__description">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-              nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-              corporis incidunt reprehenderit accusantium id aut architecto
-              harum quidem dolorem in!
-            </p>
-          </div>
+        ">
+      <div class="timeline__event__icon">
+        <i class="lni-burger"></i>
+      </div>
+      <div class="timeline__event__date">20-08-2019</div>
+      <div class="timeline__event__content">
+        <div class="timeline__event__title">Lunch</div>
+        <div class="timeline__event__description">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
+            nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
+            corporis incidunt reprehenderit accusantium id aut architecto
+            harum quidem dolorem in!
+          </p>
         </div>
       </div>
-      <div
-        class="
+    </div>
+    <div class="
           timeline__event
           animated
           fadeInUp
           delay-1s
           timeline__event--type3
-        "
-      >
-        <div class="timeline__event__icon">
-          <i class="lni-slim"></i>
-        </div>
-        <div class="timeline__event__date">20-08-2019</div>
-        <div class="timeline__event__content">
-          <div class="timeline__event__title">Exercise</div>
-          <div class="timeline__event__description">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-              nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-              corporis incidunt reprehenderit accusantium id aut architecto
-              harum quidem dolorem in!
-            </p>
-          </div>
-        </div>
+        ">
+      <div class="timeline__event__icon">
+        <i class="lni-slim"></i>
       </div>
-      <div class="timeline__event animated fadeInUp timeline__event--type1">
-        <div class="timeline__event__icon">
-          <i class="lni-cake"></i>
-        </div>
-        <div class="timeline__event__date">20-08-2019</div>
-        <div class="timeline__event__content">
-          <div class="timeline__event__title">Birthday</div>
-          <div class="timeline__event__description">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
-              nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
-              corporis incidunt reprehenderit accusantium id aut architecto
-              harum quidem dolorem in!
-            </p>
-          </div>
+      <div class="timeline__event__date">20-08-2019</div>
+      <div class="timeline__event__content">
+        <div class="timeline__event__title">Exercise</div>
+        <div class="timeline__event__description">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
+            nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
+            corporis incidunt reprehenderit accusantium id aut architecto
+            harum quidem dolorem in!
+          </p>
         </div>
       </div>
     </div>
-    <br />
-    <!--Instructions-->
-    <div class="container">
-      <h1 class="text-center" style="color: white">Instructions</h1>
-      <br />
-      <ul class="list-group list-group-flush" style="color: white">
-        <li
-          class="list-group-item bg-transparent"
-          style="color: white; border-color: #7514cf"
-        >
-          An item
-        </li>
-        <li
-          class="list-group-item bg-transparent"
-          style="color: white; border-color: #7514cf"
-        >
-          A second item
-        </li>
-        <li
-          class="list-group-item bg-transparent"
-          style="color: white; border-color: #7514cf"
-        >
-          A third item
-        </li>
-        <li
-          class="list-group-item bg-transparent"
-          style="color: white; border-color: #7514cf"
-        >
-          A fourth item
-        </li>
-        <li
-          class="list-group-item bg-transparent"
-          style="color: white; border-color: #7514cf"
-        >
-          And a fifth one
-        </li>
-      </ul>
-      <br />
-      <div class="text-center">
-        <button type="button" class="btn btn-light">View More</button>
+    <div class="timeline__event animated fadeInUp timeline__event--type1">
+      <div class="timeline__event__icon">
+        <i class="lni-cake"></i>
+      </div>
+      <div class="timeline__event__date">20-08-2019</div>
+      <div class="timeline__event__content">
+        <div class="timeline__event__title">Birthday</div>
+        <div class="timeline__event__description">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
+            nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam
+            corporis incidunt reprehenderit accusantium id aut architecto
+            harum quidem dolorem in!
+          </p>
+        </div>
       </div>
     </div>
+  </div>
+  <br />
+  <!--Instructions-->
+  <div class="container">
+    <h1 class="text-center" style="color: white">Instructions</h1>
     <br />
-    <!--Our Sponsors-->
-    <div class="container" style="color: white">
-      <h1 class="text-center">Our Sponsors</h1>
-      <br />
-      <h4 class="text-center">Coming Soon........</h4>
+    <ul class="list-group list-group-flush" style="color: white">
+      <li class="list-group-item bg-transparent" style="color: white; border-color: #7514cf">
+        An item
+      </li>
+      <li class="list-group-item bg-transparent" style="color: white; border-color: #7514cf">
+        A second item
+      </li>
+      <li class="list-group-item bg-transparent" style="color: white; border-color: #7514cf">
+        A third item
+      </li>
+      <li class="list-group-item bg-transparent" style="color: white; border-color: #7514cf">
+        A fourth item
+      </li>
+      <li class="list-group-item bg-transparent" style="color: white; border-color: #7514cf">
+        And a fifth one
+      </li>
+    </ul>
+    <br />
+    <div class="text-center">
+      <button type="button" class="btn btn-light">View More</button>
     </div>
+  </div>
+  <br />
+  <!--Our Sponsors-->
+  <div class="container" style="color: white">
+    <h1 class="text-center">Our Sponsors</h1>
     <br />
-    <!--Faq-->
-    <h1 class="text-center" style="color: white">F.A.Q.</h1>
-    <br />
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-9 mx-auto">
-          <!-- Accordion -->
-          <div id="accordionExample" class="accordion shadow">
-            <!-- Accordion item 1 -->
-            <div class="card">
-              <div
-                id="headingOne"
-                class="card-header bg-white shadow-sm border-0"
-              >
-                <h6 class="mb-0 font-weight-bold">
-                  <a
-                    href="#"
-                    data-toggle="collapse"
-                    data-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                    class="
+    <h4 class="text-center">Coming Soon........</h4>
+  </div>
+  <br />
+  <!--Faq-->
+  <h1 class="text-center" style="color: white">F.A.Q.</h1>
+  <br />
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        <!-- Accordion -->
+        <div id="accordionExample" class="accordion shadow">
+          <!-- Accordion item 1 -->
+          <div class="card">
+            <div id="headingOne" class="card-header bg-white shadow-sm border-0">
+              <h6 class="mb-0 font-weight-bold">
+                <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne" class="
                       d-block
                       position-relative
                       text-dark text-uppercase
                       collapsible-link
                       py-2
-                    "
-                    >Collapsible Group Item #1</a
-                  >
-                </h6>
-              </div>
-              <div
-                id="collapseOne"
-                aria-labelledby="headingOne"
-                data-parent="#accordionExample"
-                class="collapse show"
-              >
-                <div class="card-body p-5">
-                  <p class="font-weight-light m-0">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                    accusamus terry richardson ad squid. 3 wolf moon officia
-                    aute, non cupidatat skateboard dolor brunch. Food truck
-                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee
-                    nulla assumenda shoreditch et.
-                  </p>
-                </div>
+                    ">Collapsible Group Item #1</a>
+              </h6>
+            </div>
+            <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse show">
+              <div class="card-body p-5">
+                <p class="font-weight-light m-0">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia
+                  aute, non cupidatat skateboard dolor brunch. Food truck
+                  quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                  sunt aliqua put a bird on it squid single-origin coffee
+                  nulla assumenda shoreditch et.
+                </p>
               </div>
             </div>
+          </div>
 
-            <!-- Accordion item 2 -->
-            <div class="card">
-              <div
-                id="headingTwo"
-                class="card-header bg-white shadow-sm border-0"
-              >
-                <h6 class="mb-0 font-weight-bold">
-                  <a
-                    href="#"
-                    data-toggle="collapse"
-                    data-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                    class="
+          <!-- Accordion item 2 -->
+          <div class="card">
+            <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
+              <h6 class="mb-0 font-weight-bold">
+                <a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                  aria-controls="collapseTwo" class="
                       d-block
                       position-relative
                       collapsed
                       text-dark text-uppercase
                       collapsible-link
                       py-2
-                    "
-                    >Collapsible Group Item #2</a
-                  >
-                </h6>
-              </div>
-              <div
-                id="collapseTwo"
-                aria-labelledby="headingTwo"
-                data-parent="#accordionExample"
-                class="collapse"
-              >
-                <div class="card-body p-5">
-                  <p class="font-weight-light m-0">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                    accusamus terry richardson ad squid. 3 wolf moon officia
-                    aute, non cupidatat skateboard dolor brunch. Food truck
-                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee
-                    nulla assumenda shoreditch et.
-                  </p>
-                </div>
+                    ">Collapsible Group Item #2</a>
+              </h6>
+            </div>
+            <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+              <div class="card-body p-5">
+                <p class="font-weight-light m-0">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia
+                  aute, non cupidatat skateboard dolor brunch. Food truck
+                  quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                  sunt aliqua put a bird on it squid single-origin coffee
+                  nulla assumenda shoreditch et.
+                </p>
               </div>
             </div>
+          </div>
 
-            <!-- Accordion item 3 -->
-            <div class="card">
-              <div
-                id="headingThree"
-                class="card-header bg-white shadow-sm border-0"
-              >
-                <h6 class="mb-0 font-weight-bold">
-                  <a
-                    href="#"
-                    data-toggle="collapse"
-                    data-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                    class="
+          <!-- Accordion item 3 -->
+          <div class="card">
+            <div id="headingThree" class="card-header bg-white shadow-sm border-0">
+              <h6 class="mb-0 font-weight-bold">
+                <a href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                  aria-controls="collapseThree" class="
                       d-block
                       position-relative
                       collapsed
                       text-dark text-uppercase
                       collapsible-link
                       py-2
-                    "
-                    >Collapsible Group Item #3</a
-                  >
-                </h6>
-              </div>
-              <div
-                id="collapseThree"
-                aria-labelledby="headingThree"
-                data-parent="#accordionExample"
-                class="collapse"
-              >
-                <div class="card-body p-5">
-                  <p class="font-weight-light m-0">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life
-                    accusamus terry richardson ad squid. 3 wolf moon officia
-                    aute, non cupidatat skateboard dolor brunch. Food truck
-                    quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                    sunt aliqua put a bird on it squid single-origin coffee
-                    nulla assumenda shoreditch et.
-                  </p>
-                </div>
+                    ">Collapsible Group Item #3</a>
+              </h6>
+            </div>
+            <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+              <div class="card-body p-5">
+                <p class="font-weight-light m-0">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia
+                  aute, non cupidatat skateboard dolor brunch. Food truck
+                  quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                  sunt aliqua put a bird on it squid single-origin coffee
+                  nulla assumenda shoreditch et.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <br />
-    <br />
-    <!--Contact Us-->
-    <div class="d-flex justify-content-around">
-      <img src="assets/logo/2.png" class="img-fluid" style="height: 300px" />
-      <div class="d-flex flex-column" style="width: 30vw; color: white">
-        <p>CONTACT US</p>
-        <p>
-          📍 Survey No. 140,141/1 behind Br. Sheshrao Wankhade Shetkari Sahkari
-          Soot Girni, Village - Waranga, PO - Dongargaon(Butibori), Tahsil-
-          Nagpur (Rural), District Nagpur, Maharashtra- 441108
-        </p>
-        <p>📱 Ambuj Raj: 7905142778</p>
-        <p>📱 Chirag Garg: 7905142778</p>
-        <p>📧 skillsnights@iiitn.ac.in</p>
-      </div>
+  </div>
+  <br />
+  <br />
+  <!--Contact Us-->
+  <div class="d-flex justify-content-around">
+    <img src="assets/logo/2.png" class="img-fluid" style="height: 300px" />
+    <div class="d-flex flex-column" style="width: 30vw; color: white">
+      <p>CONTACT US</p>
+      <p>
+        📍 Survey No. 140,141/1 behind Br. Sheshrao Wankhade Shetkari Sahkari
+        Soot Girni, Village - Waranga, PO - Dongargaon(Butibori), Tahsil-
+        Nagpur (Rural), District Nagpur, Maharashtra- 441108
+      </p>
+      <p>📱 Ambuj Raj: 7905142778</p>
+      <p>📱 Chirag Garg: 7905142778</p>
+      <p>📧 skillsnights@iiitn.ac.in</p>
     </div>
-    <!--faq-->
-    <div class="container">
-      <footer
-        class="
+  </div>
+  <!--faq-->
+  <div class="container">
+    <footer class="
           d-flex
           flex-wrap
           justify-content-between
@@ -490,63 +406,36 @@
           py-3
           my-4
           border-top
-        "
-      >
-        <div class="col-md-4 d-flex align-items-center">
-          <a
-            href="/"
-            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
-          >
-            <img
-              src="assets/logo/2.png"
-              class="bi img-fluid"
-              width="30"
-              height="24"
-            />
+        ">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <img src="assets/logo/2.png" class="bi img-fluid" width="30" height="24" />
+        </a>
+        <span class="text-muted">© Copyright Skills Nights.All Rights Reserved</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-muted" href="#"><img src="assets/linkedin.png" class="bi img-fluid" width="24"
+              height="24" /></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#"><img src="assets/instagram.png" class="bi img-fluid" width="24"
+              height="24" /></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#">
+            <img src="assets/email.png" class="bi img-fluid" width="24" height="24" />
           </a>
-          <span class="text-muted"
-            >© Copyright Skills Nights.All Rights Reserved</span
-          >
-        </div>
+        </li>
+      </ul>
+    </footer>
+  </div>
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><img
-                src="assets/linkedin.png"
-                class="bi img-fluid"
-                width="24"
-                height="24"
-            /></a>
-          </li>
-          <li class="ms-3">
-            <a class="text-muted" href="#"
-              ><img
-                src="assets/instagram.png"
-                class="bi img-fluid"
-                width="24"
-                height="24"
-            /></a>
-          </li>
-          <li class="ms-3">
-            <a class="text-muted" href="#">
-              <img
-                src="assets/email.png"
-                class="bi img-fluid"
-                width="24"
-                height="24"
-              />
-            </a>
-          </li>
-        </ul>
-      </footer>
-    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
-      crossorigin="anonymous"
-    ></script>
-    <script src="index.js"></script>
-  </body>
 </html>
