@@ -19,13 +19,13 @@ body{
 
 .a1 {
   position: relative;
-  color: #f7ac1d;
+  color: #03dAC5;
   text-decoration: none;
  text-shadow: 2px 2px 5px rgba(78, 78, 78, 0.952);
 }
 
 .a1:hover {
-  color: #f7ac1d;
+  color: #03dAC5;
   text-shadow: 2px 2px 5px rgba(78, 78, 78, 0.952);
 
 
@@ -39,7 +39,7 @@ body{
   height: 2px;
   bottom: 0;
   left: 5;
-  background-color: #f7ac1d;
+  background-color: #03dAC5;
   transform: scaleX(0);
   transform-origin: top left;
   transition: transform 0.3s ease;
@@ -51,13 +51,13 @@ body{
 
 .a2 {
   position: relative;
-  color: #f7ac1d;
+  color: #03dAC5;
   text-decoration: none;
  text-shadow: 2px 2px 5px rgba(78, 78, 78, 0.952);
 }
 
 .a2:hover {
-  color: #f7ac1d;
+  color: #03dAC5;
   text-shadow: 2px 2px 5px rgba(78, 78, 78, 0.952);
 
 
@@ -71,7 +71,7 @@ body{
   height: 2px;
   bottom: 0;
   left: 5;
-  background-color: #f7ac1d;
+  background-color: #03dAC5;
   transform: scaleX(0);
   transform-origin: top left;
   transition: transform 0.3s ease;
@@ -119,7 +119,7 @@ h2 {
   content: "";
   width: 2px;
   height: 100%;
-  background: #f6a4ec;
+  background: #bb86fc;
   position: absolute;
   top: 0%;
   left: 50%;
@@ -133,7 +133,7 @@ h2 {
   content: "";
   width: 100%;
   height: 2px;
-  background: #f6a4ec;
+  background: #bb86fc;
   position: absolute;
   right: 0;
   z-index: -1;
@@ -159,7 +159,7 @@ h2 {
   border-radius: 0 6px 6px 0;
 }
 .timeline__event__date {
-  color: #f6a4ec;
+  color: #bb86fc;
   font-size: 1.5rem;
   font-weight: 600;
   background: #9251ac;
@@ -178,7 +178,7 @@ h2 {
   padding: 20px;
   align-self: center;
   margin: 0 20px;
-  background: #f6a4ec;
+  background: #bb86fc;
   border-radius: 100%;
   width: 40px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
@@ -193,7 +193,7 @@ h2 {
   content: "";
   width: 2px;
   height: 100%;
-  background: #f6a4ec;
+  background: #bb86fc;
   position: absolute;
   top: 0%;
   z-index: -1;
@@ -206,7 +206,7 @@ h2 {
   content: "";
   width: 100%;
   height: 2px;
-  background: #f6a4ec;
+  background: #bb86fc;
   position: absolute;
   left: 0%;
   z-index: -1;
@@ -219,24 +219,24 @@ h2 {
   flex-basis: 60%;
 }
 .timeline__event--type2:after {
-  background: #555ac0;
+  background: #c060a1;
 }
 .timeline__event--type2 .timeline__event__date {
-  color: #87bbfe;
-  background: #555ac0;
+  color: #f1d4d4;
+  background: #c060a1;
 }
 .timeline__event--type2:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type2:nth-child(2n+1) .timeline__event__icon:after {
-  background: #87bbfe;
+  background: #f1d4d4;
 }
 .timeline__event--type2 .timeline__event__icon {
-  background: #87bbfe;
-  color: #555ac0;
+  background: #f1d4d4;
+  color: #c060a1;
 }
 .timeline__event--type2 .timeline__event__icon:before, .timeline__event--type2 .timeline__event__icon:after {
-  background: #87bbfe;
+  background: #f1d4d4;
 }
 .timeline__event--type2 .timeline__event__title {
-  color: #555ac0;
+  color: #c060a1;
 }
 .timeline__event--type3:after {
   background: #24b47e;
@@ -400,7 +400,7 @@ h2 {
 
 .i1{
   position: relative;
-  left: 160px;
+  left: 100px;
 }
 
 .i3{
@@ -408,3 +408,5 @@ h2 {
   bottom: 50px;
   left: 150px;
 }
+
+
