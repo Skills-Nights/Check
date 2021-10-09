@@ -392,11 +392,52 @@ h2 {
 }
 
 .b1 {
-  margin-bottom: 30px;
+  position: relative;
+  margin-top: 17%;
+  margin-left: 60%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+  
 }
 .b2 {
-  margin-bottom: 150px;
+position: relative;
+  margin-top: 1%;
+  margin-left: 61.2%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
+
+@media screen and (max-width: 768px) {
+  .b1 {
+  position: relative;
+  margin-top: 60%;
+  margin-left: 45%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+
+  
+}
+.b2 {
+position: relative;
+  margin-top: 1%;
+  margin-left: 50%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+  
+}
+
+@media screen and (max-width: 768px) {
+
+  .c1{
+    margin-left: 10%;
+  }
+  .c2{
+    text-align: center;
+    margin-left: 30%;
+  }
+}
+
 
 .i1 {
   position: relative;
@@ -620,9 +661,17 @@ button.btn.btn-link i {
 
 .lp {
   background-image: url("assets1/lp.png");
-  height: 80vh;
-  width: 100vh;
+  height:80vh ;
+  width: 100%;
+  background-size: 100% 100%;
 }
+
+  @media only screen and (max-width: 768px) {
+    .lp {
+width: 100%;
+}
+}
+
 
 
 .port-item {
