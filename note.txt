@@ -1,219 +1,140 @@
-<div class="ovf" style="margin-top: -80px">
-      <div class="dropdown">
-        <img src="assets/logo/2.png" class="img-fluid" style="height: 80px" />
-        <div class="capabilities hover-underline-animation">
-          <button><a href="#">Home</a></button>
-        </div>
+/*
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        <!-- Accordion -->
+        <div id="accordionExample" class="accordion shadow">
+          <!-- Accordion item 1 -->
+          <div class="card">
+            <div id="headingOne" class="card-header bg-white shadow-sm border-0">
+              <h6 class="mb-0 font-weight-bold">
+                <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne" class="
+                      d-block
+                      position-relative
+                      text-dark text-uppercase
+                      collapsible-link
+                      py-2
+                    ">Collapsible Group Item #1</a>
+              </h6>
+            </div>
+            <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse show">
+              <div class="card-body p-5">
+                <p class="font-weight-light m-0">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia
+                  aute, non cupidatat skateboard dolor brunch. Food truck
+                  quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                  sunt aliqua put a bird on it squid single-origin coffee
+                  nulla assumenda shoreditch et.
+                </p>
+              </div>
+            </div>
+          </div>
 
-        <div class="firms hover-underline-animation">
-          <button><a href="#">About</a></button>
-        </div>
+          <!-- Accordion item 2 -->
+          <div class="card">
+            <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
+              <h6 class="mb-0 font-weight-bold">
+                <a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                  aria-controls="collapseTwo" class="
+                      d-block
+                      position-relative
+                      collapsed
+                      text-dark text-uppercase
+                      collapsible-link
+                      py-2
+                    ">Collapsible Group Item #2</a>
+              </h6>
+            </div>
+            <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+              <div class="card-body p-5">
+                <p class="font-weight-light m-0">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia
+                  aute, non cupidatat skateboard dolor brunch. Food truck
+                  quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                  sunt aliqua put a bird on it squid single-origin coffee
+                  nulla assumenda shoreditch et.
+                </p>
+              </div>
+            </div>
+          </div>
 
-        <div class="firms hover-underline-animation">
-          <button><a href="#">Prizes</a></button>
+          <!-- Accordion item 3 -->
+          <div class="card">
+            <div id="headingThree" class="card-header bg-white shadow-sm border-0">
+              <h6 class="mb-0 font-weight-bold">
+                <a href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                  aria-controls="collapseThree" class="
+                      d-block
+                      position-relative
+                      collapsed
+                      text-dark text-uppercase
+                      collapsible-link
+                      py-2
+                    ">Collapsible Group Item #3</a>
+              </h6>
+            </div>
+            <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+              <div class="card-body p-5">
+                <p class="font-weight-light m-0">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia
+                  aute, non cupidatat skateboard dolor brunch. Food truck
+                  quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                  sunt aliqua put a bird on it squid single-origin coffee
+                  nulla assumenda shoreditch et.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="insights hover-underline-animation">
-          <button><a href="#">Schedule</a></button>
-        </div>
-
-        <div class="insights hover-underline-animation">
-          <button><a href="#">Instructions</a></button>
-        </div>
-
-        <div class="contacts hover-underline-animation">
-          <button><a href="#">Our Sponsors</a></button>
-        </div>
-
-        <div class="insights hover-underline-animation">
-          <button><a href="#">FAQ</a></button>
-        </div>
-      </div>
-      <!-- hamburger-icon -->
-      <div class="burger">
-        <div class="line-1"></div>
-        <div class="line-2"></div>
-        <div class="line-3"></div>
       </div>
     </div>
+  </div>
+  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    CSS 
-
-    /* navbar */
-.ovf {
-  min-width: 100vw;
-  position: sticky;
-  top: -2px;
-  z-index: 5;
-  margin: 0;
-  transition: all 0.4s ease-in;
-}
-.nav-bg {
-  background: inherit;
-  backdrop-filter: blur(20px);
-  background-color: rgba(60, 58, 70, 0.432);
-}
-
-.dropdown {
-  display: flex;
-  justify-content: space-between;
-  position: sticky;
-  margin: 4rem 3rem 0rem 3rem;
-  align-items: center;
-}
-.capabilities,
-.firms,
-.insights,
-.contacts {
-  flex: 1;
-}
-.capabilities button,
-.firms button,
-.insights button,
-.contacts button {
-  border: none;
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0);
-  color: white;
-  font-size: 15px;
-  text-shadow: 2px 2px 5px rgba(78, 78, 78, 0.952);
-  padding: 10px 20px 10px 2px;
-}
-.capabilities a,
-.firms a,
-.insights a,
-.contacts a {
-  text-decoration: none;
-  color: white;
-}
-.burger div {
-  background-color: white;
-  width: 25px;
-  height: 3px;
-  margin: 5px;
-  border-radius: 2px;
-  transition: all 0.4s ease;
-}
-.burger {
-  display: none;
-}
-.hover-underline-animation {
-  display: inline-block;
-  position: relative;
-}
-
-.hover-underline-animation:after {
-  content: "";
-  position: absolute;
-  width: 70%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #f7ac1d;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-
-
-
-/* responsiveness: Mobile View */
-@media screen and (max-width: 768px) {
-  .ovf{
-      overflow-x: hidden;
-      position: static;
-  }
-  .dropdown {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    right: 0px;
-    top: 0vh;
-    height: 100vh;
-    width: 0%;
-    margin: 0%;
-    background: inherit;
-    backdrop-filter: blur(0.9rem);
-    background-color: rgba(255, 255, 255, 0.267);
-    box-shadow: -5px 0px 10px rgba(20, 20, 20, 0.521);
-    transform: translateX(100%);
-    transition: all 0.4s ease-in;
-    z-index: +15;
-  }
-  .dropdown button {
-    opacity: 0;
-  }
-
-  .capabilities,
-  .firms,
-  .insights,
-  .contacts{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position: relative;
-  }
-  .burger {
-    display: block;
-    position: absolute;
-    right: 10vw;
-    top: 5vh;
-    z-index: 50;
-  }
-  .hover-underline-animation:after {
-    display: none;
-  }
-}
-
-.dropdown-active {
-    width: 75%;
-    display: flex;
-    transform: translateX(0%);
-}
-.dropdown-active button {
-  color: #ffffff;
-}
-
-
-@keyframes linkfade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
-.toggle .line-1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-.toggle .line-2 {
-  width: 0px;
-  transform: translateX(25px);
-  background-color: #f7ac1d;
-}
-.toggle .line-3 {
-  transform: rotate(45deg) translate(-5px, -6px);
-}
+  <br>
+  <div class="container">
+  <div class="accordion " id="accordionExample" style="width: 70vw;" >
+  <div class="accordion-item bg-transparent">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body" style="width: 85vw;">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+*/
