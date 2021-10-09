@@ -398,3 +398,13 @@ h2 {
   margin-bottom: 150px;
 }
 
+.i1{
+  position: relative;
+  left: 160px;
+}
+
+.i3{
+  position: relative;
+  bottom: 50px;
+  left: 150px;
+}
