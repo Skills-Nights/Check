@@ -535,7 +535,7 @@ button.btn.btn-link i {
   font-size: 16px;
   font-style: normal;
   color: #213744;
-}*/
+}
 
 .accordion-forms {
   padding-right: 0 !important;
@@ -616,4 +616,11 @@ button.btn.btn-link i {
 }
 .accordion-block__btn[aria-expanded=true] .js-accordion__icon-minus {
   display: inline-block;
+}
+*/
+
+.lp{
+  background-image: url("assets/lp.png");
+  height: 80vh;
+  width: 100vh;
 }
