@@ -470,7 +470,9 @@ position: relative;
 
   @media only screen and (max-width: 768px) {
     .lp {
+      background-image: url("assets1/logo/2.png");
 width: 100%;
+
 background-repeat: no-repeat;
 }
 }
