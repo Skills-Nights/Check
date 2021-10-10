@@ -481,6 +481,11 @@ background-repeat: no-repeat;
   flex-direction: column !important;
   display: flex;
 }
+.ambuj1{
+  font-size:small;
+
+}
+
 }
 .ambuj
 {
@@ -488,7 +493,13 @@ background-repeat: no-repeat;
   flex-direction: row;
 }
 
+.ambuj{
+  align-items: center;
+}
 
+.ambuj{
+  min-width: 100%;
+}
 
 
 
