@@ -1,140 +1,148 @@
-/*
+<div class="container" style="margin-top: 100px;">
+    <div class="row featurette" style="color: white;">
+      <div class="col-md-5">
+        <img src="assets1/logo/2.png"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto i1 d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"
+          style="height: 270px;width: 300px;">
+      </div>
+      <div class="col-md-7">
+        <p class="lead" style="width: 33vw;font-family: 'Raleway', sans-serif;">Hack-o-Futurista is an All-India
+          Hackathon curated by
+          Skills Nights, with an expected participation of 1000+.Hack-o-Futurista is an unprecedented 2-stage hackathon
+          spanning over a week where the teams need to first send us their ideas and the best ones picked by our judges
+          will move on to the next stage to implement the same. This will be the final hurdle for the participants and
+          then we'll be announcing the ingenios winners of the hackathon from the list curated by our judges.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <!--skills nights-->
   <div class="container">
-    <div class="row">
-      <div class="col-lg-9 mx-auto">
-        <!-- Accordion -->
-        <div id="accordionExample" class="accordion shadow">
-          <!-- Accordion item 1 -->
-          <div class="card">
-            <div id="headingOne" class="card-header bg-white shadow-sm border-0">
-              <h6 class="mb-0 font-weight-bold">
-                <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                  aria-controls="collapseOne" class="
-                      d-block
-                      position-relative
-                      text-dark text-uppercase
-                      collapsible-link
-                      py-2
-                    ">Collapsible Group Item #1</a>
-              </h6>
-            </div>
-            <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse show">
-              <div class="card-body p-5">
-                <p class="font-weight-light m-0">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life
-                  accusamus terry richardson ad squid. 3 wolf moon officia
-                  aute, non cupidatat skateboard dolor brunch. Food truck
-                  quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                  sunt aliqua put a bird on it squid single-origin coffee
-                  nulla assumenda shoreditch et.
-                </p>
-              </div>
-            </div>
-          </div>
+    <div class="row featurette" style="color: white;">
+      <div class="col-md-7">
+        <p class="lead" style="width: 33vw;margin-left: 20%;font-family: 'Raleway', sans-serif;flex-wrap: wrap;">Skills Nights is an
+          ambitious student club that primarly aims at providing a beginner-friendly platform,making it an ideal starting point
+          for the freshers to join and begin their journey of learning/exploring new technologies in their field of interest, building projects,and collaborating with their fellow batchmates to make awesome projects that help them stand out.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="logof2/2.png"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto i2 d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"
+          style="height: 240px;width: 270px;">
+      </div>
+    </div>
+  </div>
+  <br />
+  <br />
+  <br><br>
 
-          <!-- Accordion item 2 -->
-          <div class="card">
-            <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
-              <h6 class="mb-0 font-weight-bold">
-                <a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                  aria-controls="collapseTwo" class="
-                      d-block
-                      position-relative
-                      collapsed
-                      text-dark text-uppercase
-                      collapsible-link
-                      py-2
-                    ">Collapsible Group Item #2</a>
-              </h6>
-            </div>
-            <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
-              <div class="card-body p-5">
-                <p class="font-weight-light m-0">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life
-                  accusamus terry richardson ad squid. 3 wolf moon officia
-                  aute, non cupidatat skateboard dolor brunch. Food truck
-                  quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                  sunt aliqua put a bird on it squid single-origin coffee
-                  nulla assumenda shoreditch et.
-                </p>
-              </div>
-            </div>
-          </div>
 
-          <!-- Accordion item 3 -->
-          <div class="card">
-            <div id="headingThree" class="card-header bg-white shadow-sm border-0">
-              <h6 class="mb-0 font-weight-bold">
-                <a href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                  aria-controls="collapseThree" class="
-                      d-block
-                      position-relative
-                      collapsed
-                      text-dark text-uppercase
-                      collapsible-link
-                      py-2
-                    ">Collapsible Group Item #3</a>
-              </h6>
-            </div>
-            <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
-              <div class="card-body p-5">
-                <p class="font-weight-light m-0">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life
-                  accusamus terry richardson ad squid. 3 wolf moon officia
-                  aute, non cupidatat skateboard dolor brunch. Food truck
-                  quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
-                  sunt aliqua put a bird on it squid single-origin coffee
-                  nulla assumenda shoreditch et.
-                </p>
-              </div>
-            </div>
-          </div>
+  
+  <!--TantraFiesta-->
+  <div class="container">
+    <div class="row featurette" style="color: white;">
+      <div class="col-md-5">
+        <img src="logof2/3.png"
+          class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto i3 d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"
+          style="height: 270px;width: 270px;">
+      </div>
+      <div class="col-md-7">
+        <p class="lead" style="width: 33vw;font-family: 'Raleway', sans-serif;"> The TantraFiesta is the National Level
+          Technical Fest of the IIIT
+          Nagpur. The most awaited event of IIIT Nagpur. This National Level
+          Technical Fest comprises different technical events and keynotes by the
+          industry experts.</p>
+      </div>
+    </div>
+  </div>
+  <br />
+  <br />
+  <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--About us
+    <div class="container" style="margin-top: 100px;">
+      <div class="row featurette" style="color: white;">
+        <div class="col-md-5">
+          <img src="assets1/logo/2.png"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto i1 d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"
+            style="height: 270px;width: 300px;">
+        </div>
+        <div class="col-md-7">
+          <p class="lead" style="width: 33vw;font-family: 'Raleway', sans-serif;">Hack-o-Futurista is an All-India
+            Hackathon curated by
+            Skills Nights, with an expected participation of 1000+.Hack-o-Futurista is an unprecedented 2-stage
+            hackathon
+            spanning over a week where the teams need to first send us their ideas and the best ones picked by our
+            judges
+            will move on to the next stage to implement the same. This will be the final hurdle for the participants and
+            then we'll be announcing the ingenios winners of the hackathon from the list curated by our judges.</p>
+        </div>
+      </div>
+    </div>-->
+    <br>
+    <br>
+    <br>
+
+    <!--skills nights-->
+    <div class="container">
+      <div class="row featurette" style="color: white;">
+        <div class="col-md-7">
+          <p class="lead" style="width: 33vw;margin-left: 20%;font-family: 'Raleway', sans-serif;flex-wrap: wrap;">
+            Skills
+            Nights is an
+            ambitious student club that primarly aims at providing a beginner-friendly platform,making it an ideal
+            starting
+            point
+            for the freshers to join and begin their journey of learning/exploring new technologies in their field of
+            interest, building projects,and collaborating with their fellow batchmates to make awesome projects that
+            help
+            them stand out.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="logof2/2.png"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto i2 d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"
+            style="height: 240px;width: 270px;">
         </div>
       </div>
     </div>
-  </div>
-  
+    <br />
+    <br />
+    <br><br>
 
 
-  <br>
-  <div class="container">
-  <div class="accordion " id="accordionExample" style="width: 70vw;" >
-  <div class="accordion-item bg-transparent">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body" style="width: 85vw;">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+
+    <!--TantraFiesta-->
+    <div class="container">
+      <div class="row featurette" style="color: white;">
+        <div class="col-md-5">
+          <img src="logof2/3.png"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto i3 d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"
+            style="height: 270px;width: 270px;">
+        </div>
+        <div class="col-md-7">
+          <p class="lead" style="width: 33vw;font-family: 'Raleway', sans-serif;"> The TantraFiesta is the National
+            Level
+            Technical Fest of the IIIT
+            Nagpur. The most awaited event of IIIT Nagpur. This National Level
+            Technical Fest comprises different technical events and keynotes by the
+            industry experts.</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-*/
+    <br />
+    <br />
+    <br>

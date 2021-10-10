@@ -32,10 +32,10 @@ body {
   content: "";
   position: absolute;
   display: block;
-  width: 60%;
+  width: 70%;
   height: 2px;
   bottom: 0;
-  left: 5;
+  left: 15;
   background-color: #03dac5;
   transform: scaleX(0);
   transform-origin: top left;
@@ -491,3 +491,12 @@ background-repeat: no-repeat;
     width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
