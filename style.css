@@ -472,10 +472,23 @@ position: relative;
     .lp {
       background-image: url("logof2/1.png");
 width: 100%;
+flex-direction: column;
 
 background-repeat: no-repeat;
 }
+
+.ambuj{
+  flex-direction: column !important;
+  display: flex;
 }
+}
+.ambuj
+{
+  display: flex;
+  flex-direction: row;
+}
+
+
 
 
 
